@@ -1,11 +1,11 @@
 {
 	"name": "rock-paper-scissors",
 	"version": "1.0.0",
+	"description": "Rock Paper Scissors Game developed in Node.JS",
+	"main": "index.js",
 	"engines": {
 		"node": ">=8"
 	},
-	"description": "Rock, Paper, Scissors",
-	"main": "index.js",
 	"scripts": {
 		"test": "nyc --reporter=text --reporter=html mocha ./test",
 		"pjv": "pjv -r -w",
@@ -13,18 +13,47 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@gitlab.com/dpertierra/rock-paper-scissors.git"
+		"url": "git+ssh://git@github.com/dpertierra/rock-paper-scissors.git"
 	},
 	"keywords": [
 		"express",
-		"game"
+		"game",
+		"rock-paper-scissors",
+		"nodejs"
 	],
-	"author": "Jon Peck <jpeck@fluxsauce.com>",
-	"contributors": [],
+	"author": "Diego Pertierra",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://gitlab.com/fluxsauce/rock-paper-scissors/issues"
+		"url": "https://github.com/dpertierra/rock-paper-scissors/issues"
 	},
-	"homepage": "https://gitlab.com/fluxsauce/rock-paper-scissors#README",
-
+	"homepage": "https://github.com/dpertierra/rock-paper-scissors#readme",
+	"dependencies": {
+		"bootstrap": "^5.2.3",
+		"connect-session-knex": "^3.0.1",
+		"express": "^4.18.2",
+		"express-session": "^1.17.3",
+		"joi": "^17.7.1",
+		"jquery": "^3.6.3",
+		"knex": "^2.4.2",
+		"loadash": "^1.0.0",
+		"mysql": "^2.18.1",
+		"pm2": "^5.2.2",
+		"popper.js": "^1.16.1",
+		"pug": "^3.0.2",
+		"request": "^2.88.2"
+	},
+	"devDependencies": {
+		"chai": "^4.3.7",
+		"eslint": "^4.19.1",
+		"eslint-config-airbnb-base": "^12.1.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-mocha": "^4.12.1",
+		"eslint-plugin-promise": "^3.8.0",
+		"mocha": "^5.2.0",
+		"mock-knex": "^0.4.12",
+		"nyc": "^11.9.0",
+		"package-json-validator": "^0.6.3",
+		"proxyquire": "^2.1.3",
+		"supertest": "^3.4.2"
+	}
 }
