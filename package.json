@@ -1,0 +1,30 @@
+{
+	"name": "rock-paper-scissors",
+	"version": "1.0.0",
+	"engines": {
+		"node": ">=8"
+	},
+	"description": "Rock, Paper, Scissors",
+	"main": "index.js",
+	"scripts": {
+		"test": "nyc --reporter=text --reporter=html mocha ./test",
+		"pjv": "pjv -r -w",
+		"eslint": "eslint ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@gitlab.com/dpertierra/rock-paper-scissors.git"
+	},
+	"keywords": [
+		"express",
+		"game"
+	],
+	"author": "Jon Peck <jpeck@fluxsauce.com>",
+	"contributors": [],
+	"license": "ISC",
+	"bugs": {
+		"url": "https://gitlab.com/fluxsauce/rock-paper-scissors/issues"
+	},
+	"homepage": "https://gitlab.com/fluxsauce/rock-paper-scissors#README",
+
+}
